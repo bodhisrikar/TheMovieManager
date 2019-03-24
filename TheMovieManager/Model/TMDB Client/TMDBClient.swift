@@ -10,7 +10,7 @@ import Foundation
 
 class TMDBClient {
     
-    static let apiKey = ""
+    static let apiKey = AppConstants.API_KEY
     
     private struct Auth {
         static var accountId = 0

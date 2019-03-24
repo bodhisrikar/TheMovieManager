@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		220FD8622242F85E0088533A /* LogoutResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 220FD8612242F85E0088533A /* LogoutResponse.swift */; };
+		221AC7C22247E0F200F9EF15 /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221AC7C12247E0F200F9EF15 /* AppConstants.swift */; };
 		2311AC0A2178E31500137A84 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2311AC092178E31500137A84 /* Colors.xcassets */; };
 		231688492121C92C003C820E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231688482121C92C003C820E /* AppDelegate.swift */; };
 		2316884B2121C92C003C820E /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2316884A2121C92C003C820E /* LoginViewController.swift */; };
@@ -40,6 +41,7 @@
 
 /* Begin PBXFileReference section */
 		220FD8612242F85E0088533A /* LogoutResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoutResponse.swift; sourceTree = "<group>"; };
+		221AC7C12247E0F200F9EF15 /* AppConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConstants.swift; sourceTree = "<group>"; };
 		2311AC092178E31500137A84 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		231688452121C92C003C820E /* TheMovieManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheMovieManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		231688482121C92C003C820E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -83,6 +85,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		221AC7C02247E0D400F9EF15 /* Ignored Files */ = {
+			isa = PBXGroup;
+			children = (
+				221AC7C12247E0F200F9EF15 /* AppConstants.swift */,
+			);
+			path = "Ignored Files";
+			sourceTree = "<group>";
+		};
 		2316883C2121C92C003C820E = {
 			isa = PBXGroup;
 			children = (
@@ -115,6 +125,7 @@
 		2316885A2121C941003C820E /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				221AC7C02247E0D400F9EF15 /* Ignored Files */,
 				231688712121CB22003C820E /* Data */,
 				231688662121CA71003C820E /* TMDB Client */,
 				231688672121CA79003C820E /* TMDB Requests */,
@@ -295,6 +306,7 @@
 				2316887D2121CB9A003C820E /* SessionResponse.swift in Sources */,
 				231688792121CB74003C820E /* RequestTokenResponse.swift in Sources */,
 				231688832121CBE3003C820E /* LoginRequest.swift in Sources */,
+				221AC7C22247E0F200F9EF15 /* AppConstants.swift in Sources */,
 				231688752121CB43003C820E /* Movie.swift in Sources */,
 				2316886A2121CADA003C820E /* LoginButton.swift in Sources */,
 			);
